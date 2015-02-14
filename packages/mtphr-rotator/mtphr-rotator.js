@@ -273,7 +273,6 @@
 
 			    // Find the rotation type and create the dynamic rotation in function
 					var rotate_in_name = 'mtphr_rotator_'+rotate_adjustment+'_in';
-					console.log(rotate_in_name);
 					var mtphr_rotator_type_in = eval('('+rotate_in_name+')');
 					mtphr_rotator_type_in( $rotator, $(resources[new_resource]), $(resources[vars.current]), parseInt(settings.rotate_speed*100), settings.rotate_ease );
 		    }

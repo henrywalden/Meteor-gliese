@@ -11,8 +11,8 @@ Package.onUse(function(api, where) {
 
     api.use(['jquery'], 'client');
 
-    api.addFiles(['mtphr-gallery.js', 'mtphr-parallax.js' ,'mtphr-rotator.js', 'mtphr-slidegraph.js', 'mtphr-slider.js' ,'mtphr-tabs.js',
-            'mtphr-gallery.css', 'mtphr-rotator.css', 'mtphr-slidegraph.css', 'mtphr-slider.css', 'mtphr-tabs.css'
+    api.addFiles(['mtphr-parallax.js' ,'mtphr-rotator.js', 'mtphr-slider.js', 'jquery.easing.1.3.js',
+        'jquery.touchSwipe.min.js', 'mtphr-rotator.css', 'mtphr-slider.css'
     ], 'client');
 
 });
