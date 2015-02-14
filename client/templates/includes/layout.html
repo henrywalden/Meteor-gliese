@@ -8,12 +8,9 @@
 	<section id="splash">
 		<div class="container">
 
-
-			<div class="splash-background">
-
-
-
-			</div>
+            <!--splash background-->
+            {{> splashBg}}
+            <!--end splash background-->
 
 			<div id="splash-menu" class="container">
 
@@ -23,9 +20,29 @@
 
 
 				<!--text roller goes here-->
+
+                <div id="splash-text-rotator" class="mtphr-rotator ">
+                    <div class="mtphr-rotator-resource-container">
+                        <div class="mtphr-rotator-resource"> SYNESTHESIA </div>
+                        <div class="mtphr-rotator-resource"> AUDACITY </div>
+                        <div class="mtphr-rotator-resource"> ASTRONOMICAL </div>
+                    </div>
+
+
+                    <div class="mtphr-rotator-navigation">
+                        <a href="#0" rel="nofollow"><i class="apex-icon-circle"></i><i
+                                class="apex-icon-circle-blank"></i></a>
+                        <a href="#1" rel="nofollow"><i class="apex-icon-circle"></i><i
+                                class="apex-icon-circle-blank"></i></a>
+                        <a href="#2" rel="nofollow"><i class="apex-icon-circle"></i><i
+                                class="apex-icon-circle-blank"></i></a>
+                    </div>
+                </div>
 				<!--end text roller-->
 
+
 				<!--carousel indicators-->
+
                 <!--end carousel indicators-->
 
 
@@ -33,7 +50,7 @@
                 <div class="row">
                     <div class="btn-group">
                     <!--offset one col to center buttons-->
-					<span class="splash-btn col-md-offset-1">
+					<span class="splash-btn">
                         <button class="btn"><i class="fa fa-suitcase"></i> <p>About</p> </button>
 					</span>
 
@@ -50,6 +67,9 @@
                     </span>
 
                     <span class="splash-btn">
+                        <button class="btn"><i class="fa fa-suitcase"></i> <p>Careers</p> </button>
+                    </span>
+                    <span class="splash-btn">
                         <button class="btn"><i class="fa fa-suitcase"></i> <p>Contact</p> </button>
                     </span>
                     </div>
@@ -59,5 +79,21 @@
 			</div>
 		</div>
 	</section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <h1>About Us</h1>
+
+                <h4>World-class software solutions</h4>
+            </div>
+
+            <p>Gliese Technology is a software consulting & development firm based in Melbourne, Australia - providing a suite of software solutions for Enterprise & Government clients.</p>
+            <p>We have brought together a unique team of creative designers, developers & engineers who are passionate about providing high-quality mobile, web and software solutions for your organisation. We specialise in engineering everything from scalable web architectures to developing fast-paced arcade games and mobile websites. Our mission is to continue engineering the future, helping Australian & international entities establish a presence in a world that is aggressively moving to the cloud and benefit from the momentum of the next-generation of innovations in the software market.</p>
+            <p>We are very much immersed in the in-and-outs and the latest developments in the industry and our staff's experience & expertise in their respective fields makes us the ideal consultant for your organisations needs. If you're developing, upgrading or speculating about software systems and products that can amplify the efficacy, presence & scope of your organisation or building something to deploy to the market then we are the people to get in contact with!</p>
+
+
+        </div>
+    </section>
 
 </template>
