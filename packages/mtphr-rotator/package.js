@@ -12,7 +12,7 @@ Package.onUse(function(api, where) {
     api.use(['jquery'], 'client');
 
     api.addFiles(['mtphr-parallax.js' ,'mtphr-rotator.js', 'mtphr-slider.js', 'jquery.easing.1.3.js',
-        'jquery.touchSwipe.min.js', 'mtphr-rotator.css', 'mtphr-slider.css'
+        'jquery.touchSwipe.min.js'
     ], 'client');
 
 });
