@@ -17,16 +17,18 @@ mtphr-rotator Plugin based classes
 		background-position: 50% 0;
 		background-attachment: fixed;
 	}
+
+
+	.mtphr-rotator-resource-container {
+		//to initialize the plugin that background have a height
+		//the plugin ignores height: 100% on resize
+		height: 100% !important;
+	}
 }
 
 .mtphr-rotator-resource-container {
-	//to initialize the plugin that background have a height
-	//the plugin ignores height: 100% on resize
-	height: 100% !important;
+	height: 100%;
 	width: 100%;
 	overflow: hidden;
 }
-
-//text rotator
-
 
