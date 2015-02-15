@@ -1,9 +1,13 @@
-/********
-Splash
-********/
-//make bg-container absolute
+/************************
+mtphr-rotator Plugin based classes
+************************/
+
 #splash-bg-rotator {
+	//make bg-container absolute
 	.make-abs();
+	//on fade to prevent showing white background
+	.bg-variant(#333);
+
 
 	.mtphr-rotator-resource {
 		width: 100%;
@@ -12,11 +16,17 @@ Splash
 		background-size: cover;
 		background-position: 50% 0;
 		background-attachment: fixed;
-		overflow: hidden;
 	}
 }
 
-#splash-text-rotator {
-	h3 {  color: #FFF;  }
+.mtphr-rotator-resource-container {
+	//to initialize the plugin that background have a height
+	//the plugin ignores height: 100%
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
 }
+
+//text rotator
+
 
