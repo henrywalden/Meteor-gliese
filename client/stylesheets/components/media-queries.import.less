@@ -1,0 +1,29 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {
+	//remove height fix to increase size
+	#splash img { height: initial}
+
+	//increase splash menu buttons
+	#splash-menu button {
+		width: 150px;
+		padding: 45px 0;
+		margin: 55px 0;
+		i {font-size: 38px}
+	}
+
+
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {
+
+}
